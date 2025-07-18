@@ -1,0 +1,21 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore model files (you'll upload these separately if needed)
+*.pkl
+*.h5
+
+# Ignore database
+*.sqlite3
+
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore large dlls
+*.dll
