@@ -1,0 +1,12 @@
+Django>=4.0
+djangorestframework
+pandas
+numpy
+scikit-learn
+xgboost
+tensorflow
+joblib
+streamlit
+gunicorn
+python-multipart
+whitenoise
