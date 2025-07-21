@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import requests
 
-
+# Exact column order expected by your model
 expected_columns = [
     'person_age', 'person_income', 'person_emp_length', 'loan_amnt', 'loan_int_rate',
     'loan_percent_income', 'cb_person_cred_hist_length',
@@ -71,7 +71,7 @@ if st.button("Predict"):
 
     try:
         response = requests.post(
-            "http://127.0.0.1:8000/api/predict/",
+            "https://loanapprovalprediction-system.onrender.com/api/predict/",
             json={
                 "model_name": model_name,
                 "features": final_input
