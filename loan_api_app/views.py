@@ -10,6 +10,10 @@ import joblib
 import os
 import numpy as np
 import traceback  # ✅ Added for detailed error logs
+from django.http import JsonResponse
+
+def home(request):
+    return JsonResponse({'status': 'API is live'})
 
 class LoanApprovalPrediction(APIView):
     def post(self, request):
