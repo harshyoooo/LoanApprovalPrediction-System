@@ -4,8 +4,8 @@ __pycache__/
 *.so
 
 # Ignore model files (you'll upload these separately if needed)
-*.pkl
-*.h5
+# *.pkl
+# *.h5
 
 # Ignore database
 *.sqlite3
