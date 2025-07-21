@@ -27,7 +27,7 @@ class LoanApprovalPrediction(APIView):
             # ✅ Log incoming data
             print(f"[INFO] Received model: {model_name}, features length: {len(features)}")
 
-            model_path = os.path.join(os.path.dirname(__file__), "models", f"{model_name}1.pkl")
+            model_path = os.path.join(os.path.dirname(__file__), "models", f"{model_name}_model1.pkl")
 
             try:
                 # ✅ Load model

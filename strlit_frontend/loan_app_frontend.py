@@ -27,7 +27,7 @@ st.title("Loan Approval Predictor")
 st.markdown("Fill in details to predict approval")
 
 # Model selector
-model_name = st.selectbox("Select Model", ["decision_tree", "random_forest", "xbgboost"])
+model_name = st.selectbox("Select Model", ["decision_tree", "neural_net", "xgboost"])
 
 # Inputs
 person_age = st.number_input("Age", min_value=18, max_value=100, value=25)
