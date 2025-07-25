@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 class PredictorConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'loan_api_app'
+    name = 'loan_api'
