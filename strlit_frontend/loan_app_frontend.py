@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from typing import Union, Dict, Any
 import requests
-url = "http://127.0.0.1:8000/api/predict/"
+url = "https://loanapprovalprediction-system.onrender.com"
 
 st.title("📊 Loan Approval Predictor")
 
